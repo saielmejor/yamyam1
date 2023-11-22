@@ -18,7 +18,7 @@ const {products}=data
         
         
       </div>
-      <hr></hr>
+
     </div>
   );
 }

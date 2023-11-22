@@ -6,9 +6,9 @@ import Home from './pages/Home';
 import React from 'react';
 import Store from './pages/Store';
 import { BrowserRouter as Router,Routes, Route, BrowserRouter} from 'react-router-dom';
-import Pickup from './pages/Pickup';
-
 import HeaderRewards from './components/HeaderRewards';
+import PopularDishes from './pages/PopularDishes';
+import Advertisement from './pages/Advertisement';
 
 function App() {
   return (
@@ -18,7 +18,8 @@ function App() {
     <Home/>
     <HeaderRewards/> 
     <Store/>
-    <Pickup/>
+    <Advertisement/>
+    <PopularDishes/>
     
     
       

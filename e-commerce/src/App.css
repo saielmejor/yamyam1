@@ -52,6 +52,17 @@ a+a {
 width: 100%;
 
 }
+
+.popular-image{ 
+  width: 301px; 
+  height: 193px;
+}
+
+.popular-food-dish{ 
+  background-color: #fff; 
+  display: flex;
+  justify-content: center;
+}
 @media (max-width: 768px) {
     h3 {
       font-size: 15px; /* Adjust font size for screens up to 768px wide */
