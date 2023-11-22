@@ -1,0 +1,62 @@
+
+
+.navbar-custom{
+    
+    background:#fff
+}
+
+.navbar-custom{ 
+    padding: 0;
+}
+.navbar-custom .navbar-nav .nav-link  {
+    color: black; /* Set the text color to white */
+}
+
+hr.solid {
+    border-top: 1px solid black;
+    padding: 0;
+    margin: 0;
+  }
+
+/* photo hero section */
+.photo {
+  width: 100%;
+  height: 800px;
+  background-size: contain;
+}
+
+/* Carousel indicators */ 
+.carousel-indicators button {
+  width: 20px !important;
+  height: 20px !important;
+  border: 1px solid transparent !important;
+  margin-left: 10px !important;
+  border-radius: 20px;
+}
+
+/* spacing */ 
+a+a {
+
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+.button{ 
+  background-color: white;
+  color: black;
+ 
+  font-weight: bold
+}
+.header-container{ 
+
+width: 100%;
+
+}
+@media (max-width: 768px) {
+    h3 {
+      font-size: 15px; /* Adjust font size for screens up to 768px wide */
+    }
+    span{ 
+        font-size: 15px; /* Adjust font size for screens up to 768px wide */
+    }
+  }
