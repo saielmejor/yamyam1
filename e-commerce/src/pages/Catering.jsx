@@ -21,7 +21,11 @@ export default function Catering() {
                 <h6>EVENTS SMALL TO HUGE. Requires 24 hours notice.</h6>
               </div>
               <div class="text-center my-3">
-                <button type="button" class="btn btn-custom" className=".button">
+                <button
+                  type="button"
+                  class="btn btn-custom"
+                  className="order-button"
+                >
                   START YOUR ORDER
                 </button>
               </div>
@@ -40,10 +44,14 @@ export default function Catering() {
                 <h4>GROUP ORDER</h4>
               </div>
               <div class="d-flex justify-content-center">
-                <h6>EVENTS SMALL TO HUGE. Requires 24 hours notice.</h6>
+                <h6>ORDERS TODAY TO EAT. For 15 people max</h6>
               </div>
               <div class="text-center my-3">
-                <button type="button" class="btn btn-custom" className=".button">
+                <button
+                  type="button"
+                  class="btn btn-custom"
+                  className="order-button"
+                >
                   START YOUR ORDER
                 </button>
               </div>

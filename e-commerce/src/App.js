@@ -10,6 +10,7 @@ import HeaderRewards from './components/HeaderRewards';
 import PopularDishes from './pages/PopularDishes';
 import Advertisement from './pages/Advertisement';
 import Catering from './pages/Catering';
+import Footer from './pages/Footer';
 function App() {
   return (
     <div className='App'>
@@ -21,6 +22,7 @@ function App() {
     <Advertisement/>
     <PopularDishes/>
     <Catering/>
+    <Footer/>
     
     
       

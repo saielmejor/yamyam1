@@ -44,7 +44,7 @@ a+a {
 .button{ 
   background-color: white;
   color: black;
- 
+  
   font-weight: bold
 }
 .header-container{ 
@@ -67,6 +67,22 @@ width: 100%;
 .ad-image{ 
   width: 100%; 
   height: auto;
+}
+
+.order-button{ 
+  background-color: #F1EBB6;
+  color: black;
+  font-weight: bold;
+  border-radius:50px;
+  padding: 10px;
+}
+#footer{ 
+  background-color:#E5DB7C ; 
+  
+}
+.customContainer{ 
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 @media (max-width: 768px) {
     h3 {

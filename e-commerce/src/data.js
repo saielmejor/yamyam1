@@ -87,7 +87,7 @@ const data={
             name:'Chips & Sides',
             slug:'sides', 
             category: 'Venezuelan Cuisine', 
-            image:' /images/arepas.png', 
+            image:' /images/chips.jpg', 
             price:11, 
             rating:5.0, 
             numReviews:15,

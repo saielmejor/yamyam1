@@ -11,7 +11,7 @@ const {products}=data
       
       <div class="row row-cols-3 g-3 m-5 "> 
       {data.products.map((product) => (
-        <Col  sm={6} md={3} lg={4} className="mb-3 ml-5 d-flex justify-content-center">
+        <Col  xs={8} md={4}  className="mb-3 ml-5 d-flex justify-content-center">
           <Product product={product}></Product>
         </Col>
         ))}
