@@ -12,16 +12,37 @@ export default function PopularDishes() {
       <div class="container d-flex justify-content-center">
         <div class="row m-5">
           <div class="col-sm mx-3 ">
-          <img className="popular-image" src="/images/pabellon-popular.png" alt="pabellon" />
-          <div className="popular-food-dish"> <h4>Fan Favorite Pabellon</h4></div>
+            <img
+              className="popular-image"
+              src="/images/pabellon-popular.png"
+              alt="pabellon"
+            />
+            <div className="popular-food-dish">
+              {" "}
+              <h4>Fan Favorite Pabellon</h4>
+            </div>
           </div>
           <div class="col-sm mx-3 ">
-          <img className="popular-image" src="/images/arepa-popular.png" alt="arepa" />
-          <div className="popular-food-dish"> <h4>Fan Favorite Arepas</h4></div>
+            <img
+              className="popular-image"
+              src="/images/arepa-popular.png"
+              alt="arepa"
+            />
+            <div className="popular-food-dish">
+              {" "}
+              <h4>Fan Favorite Arepas</h4>
+            </div>
           </div>
           <div class="col-sm mx-3 ">
-          <img className="popular-image" src="/images/cachapas.jpeg" alt="cachapas" />
-          <div className="popular-food-dish"> <h4>Fan Favorite Cachapas</h4></div>
+            <img
+              className="popular-image"
+              src="/images/cachapas.jpeg"
+              alt="cachapas"
+            />
+            <div className="popular-food-dish">
+              {" "}
+              <h4>Fan Favorite Cachapas</h4>
+            </div>
           </div>
         </div>
       </div>

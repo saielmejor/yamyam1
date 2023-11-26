@@ -63,6 +63,11 @@ width: 100%;
   display: flex;
   justify-content: center;
 }
+
+.ad-image{ 
+  width: 100%; 
+  height: auto;
+}
 @media (max-width: 768px) {
     h3 {
       font-size: 15px; /* Adjust font size for screens up to 768px wide */

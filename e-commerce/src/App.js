@@ -9,7 +9,7 @@ import { BrowserRouter as Router,Routes, Route, BrowserRouter} from 'react-route
 import HeaderRewards from './components/HeaderRewards';
 import PopularDishes from './pages/PopularDishes';
 import Advertisement from './pages/Advertisement';
-
+import Catering from './pages/Catering';
 function App() {
   return (
     <div className='App'>
@@ -20,6 +20,7 @@ function App() {
     <Store/>
     <Advertisement/>
     <PopularDishes/>
+    <Catering/>
     
     
       
