@@ -9,7 +9,7 @@ const {products}=data
   return (
     <div id="delivery">
       
-      <div class="row row-cols-3 g-3 m-5 "> 
+      <div class="row row-cols-3 g-3 m-5 justify-content-center "> 
       {data.products.map((product) => (
         <Col  xs={8} md={4}  className="mb-3 ml-5 d-flex justify-content-center">
           <Product product={product}></Product>

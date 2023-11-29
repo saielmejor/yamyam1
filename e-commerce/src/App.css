@@ -19,10 +19,10 @@ hr.solid {
   }
 
 /* photo hero section */
-.photo {
+.hero-image {
   width: 100%;
-  height: 800px;
-  background-size: contain;
+  height: 100vh;
+  background-size: cover;
 }
 
 /* Carousel indicators */ 
@@ -37,7 +37,7 @@ hr.solid {
 /* spacing */ 
 a+a {
 
-  margin-left: 20px;
+  margin-left: 0px;
   margin-right: 20px;
 
 }
@@ -83,6 +83,9 @@ width: 100%;
 .customContainer{ 
   padding-top: 50px;
   padding-bottom: 50px;
+}
+a{ 
+  text-decoration: none;
 }
 @media (max-width: 768px) {
     h3 {

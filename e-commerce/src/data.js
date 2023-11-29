@@ -83,16 +83,16 @@ const data={
             numReviews:15,
             description:'Venezuelan corn pancake with cheese '
         },
-        {
-            name:'Chips & Sides',
-            slug:'sides', 
-            category: 'Venezuelan Cuisine', 
-            image:' /images/chips.jpg', 
-            price:11, 
-            rating:5.0, 
-            numReviews:15,
-            description:'Venezuelan corn pancake with cheese '
-        },
+        // {
+        //     name:'Chips & Sides',
+        //     slug:'sides', 
+        //     category: 'Venezuelan Cuisine', 
+        //     image:' /images/chips.jpg', 
+        //     price:11, 
+        //     rating:5.0, 
+        //     numReviews:15,
+        //     description:'Venezuelan corn pancake with cheese '
+        // },
         {
             name:'Drinks',
             slug:'drinks', 

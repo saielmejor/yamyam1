@@ -36,7 +36,7 @@ export default function Footer() {
           </Col>
           <Col>
             <Row style={{fontWeight:"bold"}}> SOCIAL </Row>
-            <Row> <span><a href="/" style={{textDecoration:"none"}}> <FacebookIcon></FacebookIcon></a> <a href="/"  style={{textDecoration:"none"}}> <InstagramIcon></InstagramIcon></a> </span>  </Row>
+            <Row> <span><a href="/" > <FacebookIcon style={{color:"black"}}></FacebookIcon></a> <a href="/"  > <InstagramIcon style={{color:"black"}}></InstagramIcon></a> </span>  </Row>
           </Col>  
         </Row>{" "}
         
