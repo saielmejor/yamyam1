@@ -61,7 +61,10 @@ width: 100%;
 .popular-food-dish{ 
   background-color: #fff; 
   display: flex;
-  justify-content: center;
+  justify-content: center;  
+  width: 301px; /* Set the width of the current image to match its parent's width */
+  height: auto; /* Maintain aspect ratio */ 
+  margin-bottom: 20px;
 }
 
 .ad-image{ 
@@ -87,6 +90,12 @@ width: 100%;
 a{ 
   text-decoration: none;
 }
+
+.custom-header{ 
+  display: flex;
+  width: 100%; 
+  justify-content: center;
+}
 @media (max-width: 768px) {
     h3 {
       font-size: 15px; /* Adjust font size for screens up to 768px wide */
@@ -95,3 +104,10 @@ a{
         font-size: 15px; /* Adjust font size for screens up to 768px wide */
     }
   }
+@media only screen and (max-width:800px) {
+  .custom-header{
+    flex-direction: column; 
+    justify-content: center;
+  }
+  
+}

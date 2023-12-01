@@ -9,8 +9,8 @@ export default function HeaderRewards() {
     <Container >
       <Row>
         <Col>
-          <div class="d-flex justify-content-center w-100">
-            <a href="/">
+          <div className="custom-header" > 
+          <div class="d-flex justify-content-center "> <a href="/">
               <img
                 src="/images/yamyam.png"
                 style={{
@@ -23,8 +23,9 @@ export default function HeaderRewards() {
             </a>
             <h3 style={{ marginTop: "20px", marginRight: "20px" }}>
               Join YAMYAM Rewards
-            </h3>
-            <div class="d-flex mt-3" style={{ fontSize: "20px" }}>
+            </h3></div>
+            
+            <div class="d-flex justify-content-center mt-3" style={{ fontSize: "20px" }}>
               <a href="#" style={{ marginRight: "20px" }}>
                 {" "}
                 <Button variant="dark" className="button">
@@ -35,7 +36,7 @@ export default function HeaderRewards() {
 
               <span> OR </span>
 
-              <a href="#" style={{ marginLeft: "20px", color: "black" }}>
+              <a href="#" style={{ marginLeft: "20px", color: "black",textDecoration:"underline"}}>
                 SIGN UP
               </a>
             </div>
